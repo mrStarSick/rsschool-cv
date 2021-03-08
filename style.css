@@ -1,0 +1,44 @@
+body {
+    background-color: #8bbdf0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main {
+    display: block;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFDD0;
+    text-align: left;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+}
+
+.link {
+    color: #FFFDD0;
+    text-decoration: none;
+}
+
+.capital {
+    color: white;
+}
+
+header {
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: right;
+}
+
+h2 {
+    color: white;
+}
+
+.link:hover {
+    opacity: 0.25;
+}
+
+footer {
+    text-align: right;
+}
