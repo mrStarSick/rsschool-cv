@@ -1,0 +1,72 @@
+/*style*/
+
+.grid {
+    display: grid;
+    background-color: #8bbdf0;
+    grid-template-columns: 2fr 1fr 1fr;
+    color: #FFFDD0;
+    text-align: left;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: x-large;
+}
+
+.capital,
+.grid-item2 {
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.link {
+    color: #FFFDD0;
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: 0.25;
+}
+
+.grid-item1 {
+    display: grid;
+    grid-column: span 3;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item2 {
+    justify-content: right;
+}
+
+.grid-item2,
+.grid-item6,
+.grid-item8 {
+    background-color: #c3d9f0;
+    grid-column: span 3;
+}
+
+.grid-item6,
+.grid-item8 {
+    color: #c3d9f0;
+}
+
+.grid-item4 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item5 {
+    display: grid;
+    align-content: center;
+}
+
+.grid-item7 {
+    display: grid;
+    background-color: #3e5369;
+    grid-column: span 3;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item9 {
+    grid-column: span 2;
+}
